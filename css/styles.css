@@ -1,0 +1,419 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+a {
+   text-decoration: none;
+}
+ul {
+
+    list-style-type: none;
+}
+
+.header { 
+    max-width: 1440px;
+   margin: 0 auto;
+    background-color: #E1EDE6;
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 165px;
+    padding-right: 165px;
+   
+    }
+
+   .logoo {
+    color: #598D66;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.header-link {
+color: #2C2D35;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.korzina {
+      display: block;
+        width: 22px;
+        height: 22px;
+        background-image: url(../img/shopping-cart.svg);
+        
+}
+
+ .logooo {
+    display: flex;
+    align-items: center;
+    }
+
+.logo-image {
+     display: block;
+        width: 35px;
+        height: 35px;
+        background-image: url(../img/Stars.svg);
+        margin-right: 6px;
+}
+
+.header-list {
+    display: flex;
+    gap: 60px;
+    
+    }
+
+.main {
+        margin: 0 auto;
+}
+
+    .main-section {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 165px;
+        padding-right: 165px;
+        display: flex;
+        max-width: 1440px;
+        align-items: center;
+        }
+
+.main-title {
+color: #2C2D35;
+font-family: Raleway;
+font-size: 60px;
+font-style: normal;
+font-weight: 500;
+line-height: 110%;
+width: 540px;
+padding-top: 70px;
+margin-bottom: 20px;
+
+}
+.house {
+color: #598D66;
+font-family: Raleway;
+font-size: 60px;
+font-style: normal;
+font-weight: 500;
+line-height: 110%;
+margin-bottom: 20px;
+
+}
+.text {
+color: #86928B;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+width: 540px;
+
+
+}
+.main-btn {
+color: #598D66;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+background-color: transparent;
+border: 1px solid #598D66;;
+padding: 20px 60px;
+cursor: pointer;
+margin-top: 60px;
+
+}
+
+
+.reprods {
+    color: #2C2D35;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    margin-bottom: 30px;
+}
+.btn-fra {
+ color: #F4F6F5;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 20px;
+background: #376B44;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+.btn-ang {
+ color: #2C2D35;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 20px;
+background: #D4E8D9;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+}
+    .main-lay {
+        width: 100%;
+    } 
+    .main-text {
+        
+    }
+    .main-img{
+        flex-basis: calc(100%-540px-30px);
+    }
+
+    .main-textx {
+        align-items: center;
+        margin-bottom: 124px;
+        margin-left: 30px;
+    }
+    .reprod {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 165px;
+        padding-right: 165px;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+    .reprod-list {
+        display: flex;
+        gap: 32px;
+    }
+
+    .card {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 165px;
+        padding-right: 165px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card-item {
+        background-color: #E1EDE6;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+    }
+
+    .kolage {
+        background-image: url(../img/pic_background.png);
+        max-width: 1440px;
+        height: 574px;
+        margin: 0 auto;
+        padding-left: 165px;
+        padding-right: 165px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 70px;
+        background-position: center center;
+        margin-top: 70px;
+        
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            padding-top: 70px;
+            
+        }
+    .logo-img {
+        display: block;
+        width: 80px;
+        height: 80px;
+        background-image: url(../img/Star.svg);
+        margin-right: 20px;
+    }
+    .title {
+    color: #F4F6F5;
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; 
+width: 421px;
+padding-top: 20px;
+
+    }
+    .text-title {
+ color: #FFF;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+width: 540px;
+
+    }
+    .text-titlel {
+        color: #FFF;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+width: 540px;
+margin-bottom: 60px;
+    }
+
+    .kolage-btn {
+ color: #2C2D35;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 20px 60px;
+background: #EEDB6D;
+cursor: pointer;
+border: none;
+    }
+
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+     background-color: #E1EDE6;
+     padding-left: 165px;
+    
+    display: flex;
+    
+  
+    }
+
+   .address {
+    display: block;
+   }
+   .fbook {
+    background-image: url(../img/Frame\ \(1\).svg);
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+   }
+
+   .insta {
+    background-image: url(../img/Frame2.svg);
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+   }
+   .ytub {
+    background-image: url(../img/Frame3.svg);
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+   }
+.logooo {
+    padding-top: 29px;
+    margin-bottom: 41px;
+}
+.tell {
+color: #2C2D35;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+}
+
+.mast {
+    padding-bottom: 23px;
+    margin-top: 8px;
+    color: #86928B;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+   .logotip {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+   }
+   .inklinks {
+    display: block;
+   }
+
+   .main-foot {
+    margin-right: 142px;
+   }
+   .repr {
+    margin-right: 60px;
+   }
+
+   .news {
+    margin-right: 60px;
+   }
+
+   .wee {
+margin-right: 150px;
+   }
+  
+   .main-item {
+color: #2C2D35;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 6px;
+   }
+.main-item-it {
+color: #86928B;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+margin-bottom: 6px;
+}
+.main-elips {
+    display: flex;
+    gap: 30px;
+}
+.elips {
+ width: 80px;
+height: 80px;
+
+}
+
+.main-section {
+    justify-content: space-between;
+}
+
+.footer-footer {
+    padding-top: 23px;
+}
+
+.inklinks {
+    color: #86928B;
+
+font-family: Raleway;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+margin-bottom: 6px;
+}
