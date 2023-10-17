@@ -283,6 +283,11 @@ background: #EEDB6D;
 cursor: pointer;
 border: none;
     }
+    .picter {
+        width: 269px;
+        height: 397px;
+        padding-left: 213px;
+    }
 
 .footer {
     max-width: 1440px;
