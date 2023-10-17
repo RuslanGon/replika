@@ -178,8 +178,9 @@ cursor: pointer;
 
     .main-textx {
         align-items: center;
-        margin-bottom: 124px;
+        margin-bottom: 164px;
         margin-left: 30px;
+       padding-bottom: 114px;
     }
     .reprod {
         max-width: 1440px;
@@ -224,6 +225,17 @@ cursor: pointer;
         background-position: center center;
         margin-top: 70px;
         
+        }
+
+        .picterc, .picter {
+            position: relative;
+        }
+        .picter {
+            top: -310px;
+            margin-left: 50px;
+        }
+        .picters-img {
+            margin-top: 70px;
         }
 
         .logo {
@@ -285,8 +297,8 @@ border: none;
     }
     .picter {
         width: 269px;
-        height: 397px;
-        padding-left: 213px;
+        height: 267px;
+        
     }
 
 .footer {
