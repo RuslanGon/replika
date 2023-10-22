@@ -143,19 +143,6 @@ margin-top: 60px;
     margin-bottom: 30px;
 }
 .btn-fra {
- color: #F4F6F5;
-font-family: Raleway;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-border-radius: 20px;
-background: #376B44;
-border: none;
-padding: 10px 20px;
-cursor: pointer;
-}
-.btn-ger {
     color: #2C2D35;
     font-family: Raleway;
     font-size: 20px;
@@ -167,9 +154,37 @@ cursor: pointer;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-}
-    
+   }
+  
 
+   .btn-ger {
+    color: #F4F6F5;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 20px;
+    background: #376B44;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+   }
+       
+   
+   .btn-ang {
+    color: #2C2D35;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 20px;
+background: #D4E8D9;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+   }
 .btn-ang {
  color: #2C2D35;
 font-family: Raleway;
@@ -388,8 +403,7 @@ border: none;
     margin: 0 auto;
      background-color: #E1EDE6;
      padding-left: 165px;
-    
-    display: flex;
+        display: flex;
     
   
     }
