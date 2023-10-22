@@ -226,6 +226,7 @@ margin-top: 60px;
     flex-wrap: wrap; 
     display: flex;
     gap: 30px 30px;
+    padding-bottom: 50px;
 }
 .card-item {
     background-color: #E1EDE6;
@@ -294,6 +295,8 @@ padding: 20px 60px;
 cursor: pointer;
 margin-top: 20px;
 justify-content: center;
+width: 310px;
+height: 65px;
 }
 
    
