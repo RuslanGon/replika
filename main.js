@@ -82,6 +82,7 @@ const instance = basicLightbox.create(
       <img src="${item.img}" alt="">
       <h3>${item.name}</h3>
        <p>${item.prise}</p>
+       <p>${item.description}</p>
       </div>
   `
 );
