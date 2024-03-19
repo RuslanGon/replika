@@ -518,3 +518,38 @@ font-weight: 500;
 line-height: 120%;
 margin-bottom: 6px;
 }
+
+
+/* работа с модалкой через библиотеку */
+
+.product-item {
+    list-style: none;
+    width: 750px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid ;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.product-title {
+    font-family: Raleway;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 6px;
+    color: #000;
+}
+
+.product-text {
+    font-family: Raleway;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 6px;
+    color: #000;
+}
