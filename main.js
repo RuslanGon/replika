@@ -75,7 +75,6 @@ console.log(item);
 
 
 
-
 const instance = basicLightbox.create(
   `
       <div class="modal">
@@ -83,10 +82,36 @@ const instance = basicLightbox.create(
       <h3>${item.name}</h3>
        <p>${item.prise}</p>
        <p>${item.description}</p>
+
       </div>
   `
-);
-  
+, 
+{
+	/*
+	 * Function that gets executed before the lightbox will be shown.
+	 * Returning false will prevent the lightbox from showing.
+	 */
+	onShow: (instance) => {
+        // instance.element().querySelector('button').onclick = instance.close ( для кнопки button, чтоб закрывалось по клику по кнопке, если есть кнопка в розметке)
+        window.addEventListener('keydown', closeModal)
+    },
+	/*
+	 * Function that gets executed before the lightbox closes.
+	 * Returning false will prevent the lightbox from closing.
+	 */
+	onClose: (instance) => {
+        window.removeEventListener('keydown', closeModal)
+    }
+});
+
+// функция для закрытия модалки по Escape
+
+function closeModal (e) {
+    if(e.code === 'Escape')
+    instance.close()
+}
+
   instance.show();
 })
+
 
