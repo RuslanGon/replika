@@ -1,17 +1,4 @@
-// const instance = basicLightbox.create(
-//   `
-//     <div class="modal">
-//         <h1>Hello Word</h1>
-//     </div>
-// `,
-//   {
-//     onShow: (instance) => {
-// console.log('Hello word');
-//     },
-//   }
-// );
 
-// instance.show();
 
 const products = [
     {
@@ -49,7 +36,7 @@ const products = [
 // функция для одной картики
 function ProductTemplate (item) {
 return `
-<li class="product-item">
+<li class="product-item" data-id="${item.id}">
             <img src="${item.img}" alt="">
             <h3>${item.name}</h3>
              <p>${item.prise}</p>
@@ -74,7 +61,31 @@ function render () {
 render()
 
 // ===================================
+// при нажатии на картику открывается модальное окно
 
 container.addEventListener('click', (e) => {
 if(e.target === e.currentTarget) return
+
+// принажатии на картинку ищем id метод   closest()     (идем снизу в верх)
+ 
+const LiElem = e.target.closest('li')
+const id = +LiElem.dataset.id
+const item = products.find(elem => elem.id === id)
+console.log(item);
+
+
+
+
+const instance = basicLightbox.create(
+  `
+      <div class="modal">
+      <img src="${item.img}" alt="">
+      <h3>${item.name}</h3>
+       <p>${item.prise}</p>
+      </div>
+  `
+);
+  
+  instance.show();
 })
+
