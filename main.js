@@ -72,3 +72,9 @@ function render () {
     container.innerHTML = markup
 }
 render()
+
+// ===================================
+
+container.addEventListener('click', (e) => {
+if(e.target === e.currentTarget) return
+})
