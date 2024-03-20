@@ -78,9 +78,9 @@ const instance = basicLightbox.create(
   `
       <div class="modal">
       <img src="${item.img}" alt="">
-      <h3>${item.name}</h3>
-       <p>${item.prise}</p>
-       <p>${item.description}</p>
+      <h3 class="text-product" >${item.name}</h3>
+       <p class="span-product" >${item.prise}</p>
+       <p class="span-product" >${item.description}</p>
 
       </div>
   `
