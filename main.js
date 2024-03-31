@@ -117,9 +117,9 @@
 // ============================================ Forma
 
 
-function saveToLS (value){
+function saveToLS (key, value){
     const jsonData = JSON.stringify(value)
-    localStorage.setItem(jsonData)
+    localStorage.setItem(key, jsonData)
 }
 
 function loadToLS (key) {
@@ -132,7 +132,7 @@ return (data)
 }
 }
 
-const STORAGE_KEY = 'feedback-key'
+const STORAGE_KEY = 'feedback-msg'
 const form = document.querySelector('.form')
 const textarea = form.querySelector('.form-text')
 
@@ -144,7 +144,7 @@ const data = {
     name: userName,
     message: userMessage
 }
-console.log(data);
+saveToLS (STORAGE_KEY, data)
 
 })
 
