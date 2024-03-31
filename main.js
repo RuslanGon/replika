@@ -122,7 +122,7 @@ function saveToLS (key, value){
     localStorage.setItem(key, jsonData)
 }
 
-function loadToLS (key) {
+function loadToLS (key = 'empty') {
 const data = localStorage.getItem(key)
 try{
 const result = JSON.parse(data)
@@ -137,8 +137,8 @@ const form = document.querySelector('.form')
 const textarea = form.querySelector('.form-text')
 
 form.addEventListener('input' , (e) => {
-    const userName = e.currentTarget.elements.name.value
-    const userMessage = e.currentTarget.elements.message.value
+    const userName = form.elements.name.value
+    const userMessage = form.elements.message.value
 
 const data = {
     name: userName,
@@ -149,13 +149,20 @@ saveToLS (STORAGE_KEY, data)
 })
 
 function restoreData () {
-const data = loadToLS(STORAGE_KEY)
-data.name = e.currentTarget.elements.name.value
-data.message = e.currentTarget.elements.message.value
- 
- 
+const data = loadToLS(STORAGE_KEY) || {}
+
+form.elements.name.value = data.name || Anonymus
+form.elements.message.value = data.message || ''
+
 
 }
 
 restoreData()
 
+form.addEventListener('submit',  (e) => {
+e.preventDefault()
+const data = loadToLS(STORAGE_KEY) || {}
+localStorage.removeItem(STORAGE_KEY)
+form.reset()
+console.log(data);
+})
