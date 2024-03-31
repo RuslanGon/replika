@@ -566,5 +566,34 @@ margin-bottom: 6px;
     width: 650px;
     padding: 30px;
   }
-  
+  /* ========================= */
 
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input1 {
+      width: 250px;
+      height: 20px;
+      margin-top: -10px;
+  }
+
+  .form-text {
+      width: 250px;
+      height: 100px;
+      
+  }
+
+ /* .input2::placeholder {
+color: #000;
+ } */
+
+ .form-btn {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #EEDB6D;
+ }
