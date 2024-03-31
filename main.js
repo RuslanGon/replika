@@ -139,6 +139,13 @@ const textarea = form.querySelector('.form-text')
 form.addEventListener('input' , (e) => {
     const userName = e.currentTarget.elements.name.value
     const userMessage = e.currentTarget.elements.message.value
+
+const data = {
+    name: userName,
+    message: userMessage
+}
+console.log(data);
+
 })
 
 
