@@ -148,5 +148,14 @@ saveToLS (STORAGE_KEY, data)
 
 })
 
+function restoreData () {
+const data = loadToLS(STORAGE_KEY)
+data.name = e.currentTarget.elements.name.value
+data.message = e.currentTarget.elements.message.value
+ 
+ 
 
+}
+
+restoreData()
 
