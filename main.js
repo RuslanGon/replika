@@ -151,7 +151,7 @@ saveToLS (STORAGE_KEY, data)
 function restoreData () {
 const data = loadToLS(STORAGE_KEY) || {}
 
-form.elements.name.value = data.name || Anonymus 
+form.elements.name.value = data.name || 'Anonymus' 
 form.elements.message.value = data.message || ''
 
 
