@@ -148,16 +148,16 @@ saveToLS (STORAGE_KEY, data)
 
 })
 
-function restoreData () {
-const data = loadToLS(STORAGE_KEY) || {}
+// function restoreData () {
+// const data = loadToLS(STORAGE_KEY) || {}
 
-form.elements.name.value = data.name || Anonymus
-form.elements.message.value = data.message || ''
+// form.elements.name.value = data.name || Anonymus
+// form.elements.message.value = data.message || ''
 
 
-}
+// }
 
-restoreData()
+// restoreData()
 
 form.addEventListener('submit',  (e) => {
 e.preventDefault()
