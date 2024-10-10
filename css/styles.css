@@ -598,6 +598,20 @@ color: #000;
     background-color: #EEDB6D;
  }
 
+ /* Grid */
+
+ .container1 {
+    width: 200px;
+    height: 200px;
+    background-color: #401aea;
+    border: 5px solid black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+ }
+
  
 
 
