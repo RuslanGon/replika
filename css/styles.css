@@ -610,6 +610,33 @@ color: #000;
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+    /* display: grid; */
+    display: inline-grid;
+ }
+
+.grid-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+
+}
+
+ .container2 {
+    width: 700px;
+    height: 500px;
+    background-color: #f5ad72;
+    border: 5px solid black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 100px 200px 400px;
+    
  }
 
  
