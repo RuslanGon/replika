@@ -625,6 +625,7 @@ color: #000;
 }
 
  .container2 {
+    padding: 10px;
     width: 700px;
     height: 500px;
     background-color: #f5ad72;
@@ -635,7 +636,10 @@ color: #000;
     justify-content: center;
     margin-bottom: 50px;
     display: grid;
-    grid-template-columns: 100px 200px 400px;
+    grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 200px 50px 100px;
+    column-gap: 40px;
+    row-gap: 10px;
     
  }
 
