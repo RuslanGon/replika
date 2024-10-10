@@ -638,9 +638,9 @@ color: #000;
     display: grid;
     grid-template-columns: 100px 200px 300px;
     grid-template-rows: 200px 50px 100px;
-    column-gap: 40px;
-    row-gap: 10px;
-    
+    /* column-gap: 40px;
+    row-gap: 10px; */
+    gap: 20px 40px;
  }
 
  
